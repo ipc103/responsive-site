@@ -5,10 +5,12 @@ html, body {
 margin:0;
 padding-top:0;
 padding-bottom: 10px;
+font-family: Lato;
 }
 
-@media(max-width: 1600px){
+/*BANNER - DESKTOP SCREENS */
 
+@media(max-width: 1600px){
 	#header {
 		background-image: url("../img/startjourneysanstext.jpg");
 		background-size: 100%;
@@ -19,28 +21,29 @@ padding-bottom: 10px;
 	}
 
 	#banner-text {
-	padding-top: 100px;
-	padding-left: 6%;
-	position: relative;
-	width: 550px;
-}
+		padding-top: 100px;
+		padding-left: 6%;
+		position: relative;
+		width: 550px;
+	}
 
-#banner-text h1 {
-	color: white;
-	font-family: Lato;
-	margin: 0;
-	font-weight: normal;
-	font-size: 35px;
-}
+	#banner-text h1 {
+		color: white;
+		font-family: Lato;
+		margin: 0;
+		font-weight: normal;
+		font-size: 35px;
+	}
 
-#banner-text p {
-	color: white;
-	font-family: Lato;
-	margin: 0;
-	font-weight: thin;
-	font-size: 25px;
+	#banner-text p {
+		color: white;
+		font-family: Lato;
+		margin: 0;
+		font-weight: thin;
+		font-size: 25px;
+	}
 }
-}
+/*----------- MOBILE -------------------*/
 
 @media(max-width: 768px) {
   #header {
@@ -52,29 +55,30 @@ padding-bottom: 10px;
 	}
 
 	#banner-text {
-		/*width: %;*/
 		text-align: center;
 	}
 
 	#banner-text h1 {
-	margin-left: 6%;
-	color: white;
-	font-family: Lato;
-	font-weight: normal;
-	font-size: 35px;
-	max-width: 400px;
-}	
+		margin-left: 6%;
+		color: white;
+		font-family: Lato;
+		font-weight: normal;
+		font-size: 35px;
+		max-width: 400px;
+	}	
 
-#banner-text p {
-	color: white;
-	font-family: Lato;
-	margin: 0;
-	font-weight: thin;
-	font-size: 15px;
-	max-width: 400px;
+	#banner-text p {
+		color: white;
+		font-family: Lato;
+		margin: 0;
+		font-weight: thin;
+		font-size: 15px;
+		max-width: 400px;
+	}
+
 }
 
-}
+/*------------ PANEL -----------------*/
 
 .panel-title {
 	text-align: center;
@@ -83,6 +87,7 @@ padding-bottom: 10px;
 	font-family: Lato;
 	color: #FF0000;
 }
+
 
 div.img-block {
 	width: 100%;
@@ -101,6 +106,3 @@ img.panel-img {
 	font-family: Open-Sans;
 }
 
-p#lorem {
-	font-family: Lato;
-}
