@@ -43,9 +43,9 @@ font-family: Lato;
 		font-size: 25px;
 	}
 }
-/*----------- MOBILE -------------------*/
+/*----------- MOBILE BANNER -------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 970px) {
   #header {
 		background: url("../img/startjourneysanstext.jpg");
 		background-position: 0 0 0 0;
@@ -56,6 +56,7 @@ font-family: Lato;
 
 	#banner-text {
 		text-align: center;
+		width: 100%;
 	}
 
 	#banner-text h1 {
@@ -64,7 +65,7 @@ font-family: Lato;
 		font-family: Lato;
 		font-weight: normal;
 		font-size: 35px;
-		max-width: 400px;
+		max-width: 970px;
 	}	
 
 	#banner-text p {
@@ -73,7 +74,7 @@ font-family: Lato;
 		margin: 0;
 		font-weight: thin;
 		font-size: 15px;
-		max-width: 400px;
+		max-width: 970px;
 	}
 
 }
