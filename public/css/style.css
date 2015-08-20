@@ -57,6 +57,8 @@ font-family: Lato;
 	#banner-text {
 		text-align: center;
 		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	#banner-text h1 {
@@ -90,6 +92,7 @@ font-family: Lato;
 }
 
 
+
 div.img-block {
 	width: 100%;
 	text-align: center;
@@ -105,5 +108,20 @@ img.panel-img {
 
 .img-block p {
 	font-family: Open-Sans;
+}
+
+.img-caption {
+	margin: 0 auto;
+	max-width: 300px;
+	text-align: left;
+}
+
+.img-caption p {
+	margin-left: 15px;
+	margin-right: 25px;
+}
+
+p#lorem {
+	padding: 10px;
 }
 
